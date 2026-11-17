@@ -1,0 +1,86 @@
+# =============================================================================
+# Pixel Forge Studio — .gitignore
+# =============================================================================
+
+# --- Operating system files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- Portable Git installation (do not version control binaries) ---
+Git/
+
+# --- IDEs and editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
+# --- Language-agnostic build / output artifacts ---
+build/
+dist/
+out/
+bin/
+target/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pyc
+__pycache__/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.temp
+*.cache
+tmp/
+temp/
+*.swp
+*.swo
+
+# --- Environment and secrets ---
+.env
+.env.local
+.env.*.local
+*.env
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.jks
+
+# --- Package manager artifacts ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+composer.lock
+poetry.lock
+Pipfile.lock
+Gemfile.lock
+
+# --- OS-generated thumbnail / metadata ---
+._*
+
+# =============================================================================
+# End of .gitignore
+# =============================================================================
