@@ -1,4 +1,0 @@
-Project notes:
-- Initial setup complete
-- Git is working
-- Testing the full workflow
