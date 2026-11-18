@@ -1,22 +1,24 @@
 {
-  "name": "default-project",
+  "name": "red-apple-mobile-repair",
   "version": "1.0.0",
-  "description": "Hello! This is my first file in the project.",
-  "main": "index.js",
+  "private": true,
+  "description": "Red Apple Mobile Repair — premium Apple repair website for Bengaluru",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DigitalPixelStudio/Pixel-Forge-Studio-Websites-Apps.git"
-  },
-  "keywords": [],
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/DigitalPixelStudio/Pixel-Forge-Studio-Websites-Apps/issues"
-  },
-  "homepage": "https://github.com/DigitalPixelStudio/Pixel-Forge-Studio-Websites-Apps#readme",
   "dependencies": {
-    "ai": "^7.0.177"
+    "ai": "^4.0.0",
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.0"
   }
 }
