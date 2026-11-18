@@ -1,0 +1,22 @@
+{
+  "name": "default-project",
+  "version": "1.0.0",
+  "description": "Hello! This is my first file in the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalPixelStudio/Pixel-Forge-Studio-Websites-Apps.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DigitalPixelStudio/Pixel-Forge-Studio-Websites-Apps/issues"
+  },
+  "homepage": "https://github.com/DigitalPixelStudio/Pixel-Forge-Studio-Websites-Apps#readme",
+  "dependencies": {
+    "ai": "^7.0.177"
+  }
+}
